@@ -1,0 +1,72 @@
+.parent{
+    width: 100%;
+    background-image:url('images/Image1.avif') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    opacity: 1;
+}
+.main{
+    width: 100%;
+}
+.wdetails{
+    transform: translate(0px,500px);
+}
+.tem{
+    font-size: 3.5em;
+}
+.rrr{
+    height: 100%;
+}
+.city{
+    cursor: pointer;
+}
+.baby2{
+    background: rgba(110,110,110,0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+@media (max-width:913px) {
+    .wdetails{
+        transform: translate(0px,400px);
+    }
+}
+@media (max-width:420px) {
+    .parent{
+        height: auto;
+    }
+    .rrr{
+        height: 830px;
+        overflow: hidden;
+    }
+    .wdetails{
+        transform: translate(0px,20px);
+        
+    }
+    .baby1{
+        height: 20%!important;
+        
+    }
+    .baby2{
+        height: 80%!important;
+    }
+    .tem{
+        font-size: 1.5em;
+    }
+    .plc{
+        font-size:15px ;
+    }
+    .dte{
+        font-size:10px ;
+    }
+    .fs-1 {
+        font-size: calc(1.375rem + -1.5vw)!important;
+    }
+    .nature{
+        font-size: 10px;
+    }
+}
+
+
