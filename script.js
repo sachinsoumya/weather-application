@@ -114,11 +114,16 @@ function fetchWeatherData(cityInput){
     }
     else if(conditionOutput.innerHTML == 'Thunderstorm'){
         icon.innerHTML = `<i class="bi bi-cloud-fog fs-1"></i>`
+        prnt.style.backgroundImage = "url('./images/thunderImage.avif')"
     }
     
     else if(conditionOutput.innerHTML == 'Clouds'){
         icon.innerHTML = `<i class="bi bi-cloud-fill fs-1"></i>`
         prnt.style.backgroundImage = "url('./images/cloudImage.avif')"
+    }
+    else if(conditionOutput.innerHTML == 'Mist'){
+        icon.innerHTML = `<i class="bi bi-cloud-hail"></i>`
+        prnt.style.backgroundImage = "url('./images/mistImage.avif')"
     }
     else{
         icon.innerHTML = `<i class="bi bi-stars fs-1"></i>`
